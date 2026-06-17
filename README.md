@@ -99,3 +99,9 @@ http://127.0.0.1:8000/admin/
 ---
 
 Developed using Django framework.
+
+### Project Contributors
+
+This project was collaboratively developed by:
+- Zamazwe Oyintando Gwe
+- Farah Fatini Binti Hazlin Shah
