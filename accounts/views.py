@@ -11,6 +11,9 @@ def profile(request):
 def register(request):
     form = UserCreationForm(request.POST or None)
 
+    for field in form.fields.values():
+        field.widget.attrs.update({'class': 'form-control'})
+
     if form.is_valid():
         user = form.save()
         login(request, user)
